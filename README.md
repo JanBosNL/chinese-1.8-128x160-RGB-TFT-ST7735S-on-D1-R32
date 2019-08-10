@@ -57,5 +57,6 @@ The example code is based on: The adafruit ST7735 library
  Below is the only pinout refference I could find for the fake WEMOS D1 R32 
  
  SCL is GPIO 22 & SDA is GPIO 21
+ 
  ![D1 R32 pinout](https://raw.githubusercontent.com/JanBosNL/chinese-1.8-128x160-RGB-TFT-ST7735S-on-D1-R32/master/8.png)
  
