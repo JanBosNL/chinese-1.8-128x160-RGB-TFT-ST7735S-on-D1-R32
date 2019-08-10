@@ -1,29 +1,35 @@
-# chinese-1.8-128x160-RGB-TFT-ST7735S-on-D1-R32
-chinese 1.8" 128x160 RGB TFT ST7735S example on D1 R32
-Since I was not able to find a decent pinout for the fake wemos D1 R32
-I had problems configuring the GPIO pin numbers to get the undocumented
-chinese TFT diplay working.
-
+# chinese-1.8-128x160-RGB-TFT-ST7735S-on-D1-R32 
+chinese 1.8" 128x160 RGB TFT ST7735S example on D1 R32  
+Since I was not able to find a decent pinout for the fake wemos D1 R32  
+I had problems configuring the GPIO pin numbers to get the undocumented 
+chinese TFT diplay working. 
+  
 The example code is based on: The adafruit ST7735 library 
 
 /**************************************************************************
 
-  This is a library for several Adafruit displays based on ST77* drivers.
+  This is a library for several Adafruit displays based on ST77* drivers. 
   
 
-  Works with the Adafruit 1.8" TFT Breakout w/SD card
+  Works with the Adafruit 1.8" TFT Breakout w/SD card 
     ----> http://www.adafruit.com/products/358
-  The 1.8" TFT shield
+    
+  The 1.8" TFT shield 
     ----> https://www.adafruit.com/product/802
-  The 1.44" TFT breakout
+    
+  The 1.44" TFT breakout  
     ----> https://www.adafruit.com/product/2088
-  The 1.3" TFT breakout
+    
+  The 1.3" TFT breakout 
   ----> https://www.adafruit.com/product/4313
-  The 1.54" TFT breakout
+  
+  The 1.54" TFT breakout  
     ----> https://www.adafruit.com/product/3787
-  The 2.0" TFT breakout
+    
+  The 2.0" TFT breakout 
     ----> https://www.adafruit.com/product/4311
-  as well as Adafruit raw 1.8" TFT display
+    
+  as well as Adafruit raw 1.8" TFT display  
     ----> http://www.adafruit.com/products/618
     
 
@@ -46,6 +52,8 @@ The example code is based on: The adafruit ST7735 library
   MIT license, all text above must be included in any redistribution
   
  **************************************************************************/
+ 
+ 
  Below is the only pinout refference I could find for the fake WEMOS D1 R32 
  
  SCL is GPIO 22 & SDA is GPIO 21
